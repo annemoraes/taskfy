@@ -1,14 +1,15 @@
 import React from 'react';
 import { Container, Label } from './style';
 
-export default function Card(){
+export default function Card({ data }){
     return(
         <Container>
             <header>
+                {data.labels.map(label => < Label key={label} color={label}/>)}
                 <Label color="#7159c1"/>
             </header>
-            <p>Fazer migração de servidor</p>
-            <img src="https://api.adorable.io/avatars/285/abott@adorable.png"></img>
+            <p>{data.content}</p>
+            { data.user && <img src={data.user} alt=""></img>}
         </Container>
     );
 }
