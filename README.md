@@ -1,11 +1,41 @@
+
+
 # taskfy
 
-Estudo drag n'drop em um gerenciador de tarefas para projetos. 
+<h4 align="center">
+Estudo de drag n'drop em um gerenciador de tarefas para projetos. 
+</h4>
 
-* ReactJs
-* JavaScript
-* Styled components
+## 🛠 Tecnologias
+  
+ 
+- [x] ReactJs
+- [x] Styled Components
 
-#### Estado atual do projeto
+### 
 
-![Aparencia inicial](https://raw.githubusercontent.com/annemoraes/taskfy/master/Screenshot_2020-02-13%20Taskfy.png)
+<p align="center">
+  <img alt="Taskfy" title="#Taskfy" src="./.github/taskfy.gif" width="700px">
+</p>
+
+---
+
+### 🚀 Como executar o projeto
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/annemoraes/taskfy.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd taskfy
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação 
+$ yarn start
+
+```
+---
+
