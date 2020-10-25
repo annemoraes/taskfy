@@ -15,7 +15,7 @@ Estudo de drag n'drop em um gerenciador de tarefas para projetos.
 ### 
 
 <p align="center">
-  <img alt="Taskfy" title="#Taskfy" src="./.github/taskfy.gif" width="700px">
+  <img alt="Taskfy" title="#Taskfy" src="./.github/taskfy.png">
 </p>
 
 ---
